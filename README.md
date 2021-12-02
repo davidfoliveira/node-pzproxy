@@ -47,6 +47,8 @@ A pluggable HTTP/HTTPS + cache + proxy library for node.js
 
 - `defaultTimeout`: The default backend request timeout (in seconds). The default value is: 60
 
+- `defaultTransferTimeout`: The default timeout (in ms) for transferring data from the backend. The default value is: 60000
+
 - `onRequest()`: Function for handling every request. The function arguments are `(request,response,callback)`
 
 - `shouldCache()`: Function that is called to decide whether to cache or not. The function arguments are `(request,response,proxyRequest,proxyResponse)`. It should return a boolean value
