@@ -11,6 +11,9 @@
     "url": "https://github.com/davidfoliveira/node-pzproxy/"
   },
   "main": "./lib/pzproxy",
+  "scripts": {
+    "test": "node --test 'test/*.test.js'"
+  },
   "dependencies": { },
   "devDependencies": {},
   "optionalDependencies": {},
